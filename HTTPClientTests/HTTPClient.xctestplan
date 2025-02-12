@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "E4BA05C6-A742-4753-81F7-642E4B522E29",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:HTTPClient.xcodeproj",
+          "identifier" : "AA984DEA2D5C3DFE00E66612",
+          "name" : "HTTPClient"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:HTTPClient.xcodeproj",
+      "identifier" : "AA984DEA2D5C3DFE00E66612",
+      "name" : "HTTPClient"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:HTTPClient.xcodeproj",
+        "identifier" : "AA984E002D5C3DFF00E66612",
+        "name" : "HTTPClientTests"
+      }
+    }
+  ],
+  "version" : 1
+}
