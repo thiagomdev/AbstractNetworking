@@ -13,13 +13,12 @@ extension NetwokingProvider: HTTPClientProtocol {
         session.dataTask(with: request) { data, response, error in
             if let error {
                 onComplete(.failure(error))
-            } else if let data, let httpResponse = response as? HTTPURLResponse {
-                onComplete(.success(data, httpResponse))
-            } else {
-                if let error {
-                    onComplete(.failure(error))
-                }
             }
+            guard let data,
+                let httpResponse = response as? HTTPURLResponse else {
+                return
+            }
+            onComplete(.success(data, httpResponse))
         }.resume()
     }
 }
