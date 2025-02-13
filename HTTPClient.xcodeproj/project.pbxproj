@@ -25,6 +25,7 @@
 		AA984EA32D5C424E00E66612 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA984EA22D5C424B00E66612 /* DataModel.swift */; };
 		AA984EA72D5C451200E66612 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA984EA62D5C450C00E66612 /* MainViewModel.swift */; };
 		AA984EAB2D5C4B9A00E66612 /* MainServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA984EAA2D5C4B9A00E66612 /* MainServiceTests.swift */; };
+		AAF800C92D5D6BAC004E40BB /* MainViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF800C82D5D6BAC004E40BB /* MainViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		AA984EA22D5C424B00E66612 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		AA984EA62D5C450C00E66612 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		AA984EAA2D5C4B9A00E66612 /* MainServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainServiceTests.swift; sourceTree = "<group>"; };
+		AAF800C82D5D6BAC004E40BB /* MainViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,6 +282,7 @@
 				AA984EAA2D5C4B9A00E66612 /* MainServiceTests.swift */,
 				AA7271A02D5CEEC900835958 /* MainViewModelTests.swift */,
 				AA7272542D5D4B3F00835958 /* NetwokingProviderTests.swift */,
+				AAF800C82D5D6BAC004E40BB /* MainViewControllerTests.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 				AA7272552D5D4B3F00835958 /* NetwokingProviderTests.swift in Sources */,
 				AA72719F2D5C59D700835958 /* Fixture.swift in Sources */,
 				AA7271A12D5CEEC900835958 /* MainViewModelTests.swift in Sources */,
+				AAF800C92D5D6BAC004E40BB /* MainViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

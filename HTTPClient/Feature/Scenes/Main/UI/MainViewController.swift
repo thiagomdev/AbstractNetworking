@@ -11,8 +11,13 @@ final class MainViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        didLoadData()
         view.backgroundColor = .lightGray
-        
+    }
+    
+    required init?(coder: NSCoder) { nil }
+    
+    func didLoadData() {
         viewModel.displayData { result in
             switch result {
             case let .success(dataModel):
@@ -21,10 +26,6 @@ final class MainViewController: UIViewController {
                 dump(error)
             }
         }
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
     }
 }
 

@@ -22,7 +22,7 @@ final class MainViewModelTests: XCTestCase {
         XCTAssertNotNil(expectedDataModel)
     }
     
-    func test_() {
+    func test_display_data_when_retuned_failure() {
         let (sut, spy) = makeSut()
         var expectedError: NSError = .init(domain: "Test", code: -999)
         let exp = expectation(description: "Wait for a completion block")
